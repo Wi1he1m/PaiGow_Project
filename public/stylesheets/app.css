@@ -1,0 +1,21 @@
+body {
+   background-color: rgba(0, 51, 25, .75);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+button{
+    display: inline-block;
+    margin-left: 20px;
+}
+.card {
+    max-height: 250px;
+    max-width: 200px;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
