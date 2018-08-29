@@ -17,7 +17,6 @@ newGame.addEventListener("click", function(){
     display();
     //document.body.classList.toggle("purple");
 });
-//here's our players array from exercise 1
 
 // deckinit();
 // deal();
@@ -39,8 +38,7 @@ function deckinit(){
 }
 
 
-//Deal 7 cards to each player,
-//one player at a time
+//Deal 7 cards to each player
 function deal(){
     var k = 0;
         for(var i=0; i<7; i++){
