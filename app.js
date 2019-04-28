@@ -11,8 +11,9 @@ app.get("/", function(req, res){
     res.render("index");
 });
 
-
-
+app.post("/", function(req, res){
+    console.log(req.body);
+});
 
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Server started");

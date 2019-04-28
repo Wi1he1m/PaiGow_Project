@@ -3,12 +3,18 @@
 <H1>Pai Gow Poker</H1>
 
     <div>
-		  <p>Action starts on seat: <span id="action"></span><button id="newGame">I'm a button</button></p>
+		  <p>Action starts on seat: <span id="action"></span><button id="newGameBtn">New Game</button><button id="compareBtn">Comparisons</button></p>
+	</div>
+	
+	
+	<div class="container">
+		<div id="dealerHand"></div>
 	</div>
 
 		<div class="container">
-			<p id="hands">
-			  
+			<p id="playerHand">
+			
+			
 			<!--		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -18,11 +24,9 @@
 			-->
 			</p>
 		</div>
-			<div>
-			    <% var arr = ['"1"', "5", "7", "13", "42", '"the meaning of life"'];%>
-                <% arr.forEach(function(input){ %>
-                <p>The answer is <%= input%></p>
-                <% }); %>
-			</div>
+		
+		<div id="test">
+			
+		</div>
 
 <% include ./partials/footer %>
